@@ -1,0 +1,15 @@
+#### PostgreSQL data types ####
+#set ($dataTypes = {
+	"string" : "VARCHAR2(255)", 
+	"int" : "NUMBER",
+	"integer" : "NUMBER",
+	"short" : "NUMBER",
+	"long" : "LONG",
+	"boolean" : "NUMBER(1,0)",
+	"decimal" : "DECIMAL",
+	"float" : "NUMBER",
+	"text" : "CLOB",
+	"date" : "DATE",
+	"time" : "DATE",
+	"timestamp" : "TIMESTAMP"
+})
